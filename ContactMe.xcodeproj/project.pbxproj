@@ -21,9 +21,16 @@
 		3767AF281FD9660A006C8A98 /* Utility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3767AF271FD9660A006C8A98 /* Utility.swift */; };
 		3767AF2A1FD9661E006C8A98 /* APIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3767AF291FD9661E006C8A98 /* APIClient.swift */; };
 		3767AF2C1FD9669C006C8A98 /* Protocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3767AF2B1FD9669C006C8A98 /* Protocols.swift */; };
+		37CEDE251FDAC47800DE1C3D /* SearchIndex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37CEDE241FDAC47800DE1C3D /* SearchIndex.swift */; };
+		37CEDE271FDAD29C00DE1C3D /* ContactSearch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37CEDE261FDAD29C00DE1C3D /* ContactSearch.swift */; };
+		37CEDE291FDAD45100DE1C3D /* StoboardID.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37CEDE281FDAD45100DE1C3D /* StoboardID.swift */; };
+		37CEDE2B1FDAD46D00DE1C3D /* AppTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37CEDE2A1FDAD46D00DE1C3D /* AppTheme.swift */; };
+		37CEDE2D1FDAD4A200DE1C3D /* StringConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37CEDE2C1FDAD4A200DE1C3D /* StringConstants.swift */; };
+		43D093B3640F6A7520B61EA4 /* Pods_ContactMe.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D9F7DA7939EA7CED43B33096 /* Pods_ContactMe.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2B733CB27E9CC95C35399413 /* Pods-ContactMe.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ContactMe.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ContactMe/Pods-ContactMe.debug.xcconfig"; sourceTree = "<group>"; };
 		3767AF011FD9642D006C8A98 /* ContactMe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ContactMe.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3767AF041FD9642D006C8A98 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3767AF061FD9642D006C8A98 /* ContactListController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactListController.swift; sourceTree = "<group>"; };
@@ -40,6 +47,13 @@
 		3767AF271FD9660A006C8A98 /* Utility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utility.swift; sourceTree = "<group>"; };
 		3767AF291FD9661E006C8A98 /* APIClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIClient.swift; sourceTree = "<group>"; };
 		3767AF2B1FD9669C006C8A98 /* Protocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Protocols.swift; sourceTree = "<group>"; };
+		37CEDE241FDAC47800DE1C3D /* SearchIndex.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchIndex.swift; sourceTree = "<group>"; };
+		37CEDE261FDAD29C00DE1C3D /* ContactSearch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactSearch.swift; sourceTree = "<group>"; };
+		37CEDE281FDAD45100DE1C3D /* StoboardID.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoboardID.swift; sourceTree = "<group>"; };
+		37CEDE2A1FDAD46D00DE1C3D /* AppTheme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppTheme.swift; sourceTree = "<group>"; };
+		37CEDE2C1FDAD4A200DE1C3D /* StringConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringConstants.swift; sourceTree = "<group>"; };
+		ABC26D69BED97871AA9649DB /* Pods-ContactMe.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ContactMe.release.xcconfig"; path = "Pods/Target Support Files/Pods-ContactMe/Pods-ContactMe.release.xcconfig"; sourceTree = "<group>"; };
+		D9F7DA7939EA7CED43B33096 /* Pods_ContactMe.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ContactMe.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +61,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				43D093B3640F6A7520B61EA4 /* Pods_ContactMe.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -58,6 +73,8 @@
 			children = (
 				3767AF031FD9642D006C8A98 /* ContactMe */,
 				3767AF021FD9642D006C8A98 /* Products */,
+				9D8A42E59E188EBFD5A2B189 /* Pods */,
+				90BF588BE91D12A529C9CD70 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -89,6 +106,9 @@
 		3767AF161FD964FC006C8A98 /* Constants */ = {
 			isa = PBXGroup;
 			children = (
+				37CEDE281FDAD45100DE1C3D /* StoboardID.swift */,
+				37CEDE2A1FDAD46D00DE1C3D /* AppTheme.swift */,
+				37CEDE2C1FDAD4A200DE1C3D /* StringConstants.swift */,
 			);
 			path = Constants;
 			sourceTree = "<group>";
@@ -99,6 +119,8 @@
 				3767AF271FD9660A006C8A98 /* Utility.swift */,
 				3767AF291FD9661E006C8A98 /* APIClient.swift */,
 				3767AF2B1FD9669C006C8A98 /* Protocols.swift */,
+				37CEDE241FDAC47800DE1C3D /* SearchIndex.swift */,
+				37CEDE261FDAD29C00DE1C3D /* ContactSearch.swift */,
 			);
 			path = Helpers;
 			sourceTree = "<group>";
@@ -131,6 +153,23 @@
 			path = Controllers;
 			sourceTree = "<group>";
 		};
+		90BF588BE91D12A529C9CD70 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D9F7DA7939EA7CED43B33096 /* Pods_ContactMe.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9D8A42E59E188EBFD5A2B189 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2B733CB27E9CC95C35399413 /* Pods-ContactMe.debug.xcconfig */,
+				ABC26D69BED97871AA9649DB /* Pods-ContactMe.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -138,9 +177,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3767AF131FD9642D006C8A98 /* Build configuration list for PBXNativeTarget "ContactMe" */;
 			buildPhases = (
+				E209F502170D609558DF4852 /* [CP] Check Pods Manifest.lock */,
 				3767AEFD1FD9642D006C8A98 /* Sources */,
 				3767AEFE1FD9642D006C8A98 /* Frameworks */,
 				3767AEFF1FD9642D006C8A98 /* Resources */,
+				364281ECC9BB2CB1BA8C6FFA /* [CP] Embed Pods Frameworks */,
+				E42984CF1643A3D87D14B8A9 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -198,6 +240,54 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		364281ECC9BB2CB1BA8C6FFA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ContactMe/Pods-ContactMe-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E209F502170D609558DF4852 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		E42984CF1643A3D87D14B8A9 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ContactMe/Pods-ContactMe-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		3767AEFD1FD9642D006C8A98 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -205,12 +295,17 @@
 			files = (
 				3767AF241FD965E2006C8A98 /* ContactDetailCell.swift in Sources */,
 				3767AF1C1FD96578006C8A98 /* AddContactViewController.swift in Sources */,
+				37CEDE251FDAC47800DE1C3D /* SearchIndex.swift in Sources */,
 				3767AF281FD9660A006C8A98 /* Utility.swift in Sources */,
+				37CEDE2D1FDAD4A200DE1C3D /* StringConstants.swift in Sources */,
 				3767AF2C1FD9669C006C8A98 /* Protocols.swift in Sources */,
 				3767AF2A1FD9661E006C8A98 /* APIClient.swift in Sources */,
 				3767AF201FD965C1006C8A98 /* ContactListCell.swift in Sources */,
+				37CEDE271FDAD29C00DE1C3D /* ContactSearch.swift in Sources */,
 				3767AF071FD9642D006C8A98 /* ContactListController.swift in Sources */,
+				37CEDE2B1FDAD46D00DE1C3D /* AppTheme.swift in Sources */,
 				3767AF261FD965F3006C8A98 /* Contact.swift in Sources */,
+				37CEDE291FDAD45100DE1C3D /* StoboardID.swift in Sources */,
 				3767AF1E1FD96584006C8A98 /* ContactDetailViewController.swift in Sources */,
 				3767AF221FD965CF006C8A98 /* ContactImageCell.swift in Sources */,
 				3767AF051FD9642D006C8A98 /* AppDelegate.swift in Sources */,
@@ -348,6 +443,7 @@
 		};
 		3767AF141FD9642D006C8A98 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2B733CB27E9CC95C35399413 /* Pods-ContactMe.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -363,6 +459,7 @@
 		};
 		3767AF151FD9642D006C8A98 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = ABC26D69BED97871AA9649DB /* Pods-ContactMe.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
