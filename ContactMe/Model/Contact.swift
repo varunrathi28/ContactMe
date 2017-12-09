@@ -1,29 +1,17 @@
 //
-//  Contact.swift
-//  ContactMe
+//  Contact+CoreDataClass.swift
+//  
 //
-//  Created by Varun Rathi on 07/12/17.
-//  Copyright © 2017 vrat28. All rights reserved.
+//  Created by Varun Rathi on 09/12/17.
+//
 //
 
-import UIKit
+import Foundation
 import CoreData
 
-class Contact: NSManagedObject {
-         @NSManaged var name: String!
-         @NSManaged var firstName: String?
-         @NSManaged var lastName: String?
-         @NSManaged var organization: String?
+@objc(Contact)
+public class Contact: NSManagedObject {
+
 }
 
 
-extension Contact : Searchable {
-    
-    
-    var searchableStrings:[String] {
-        
-        return [name,firstName,lastName,organization].flatMap({
-            $0
-        })
-    }
-}
